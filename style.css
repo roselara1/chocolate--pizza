@@ -27,19 +27,38 @@ float: left;
   #paper {
       background-image: url("images/paper.png");
       background-repeat: no-repeat;
-      /* display: block; */
   }
 
   #firstlist {
     width: 30%;
     padding: 10px; 
+    padding-bottom: 80px;
     margin-left: 5%;
-    display: block;
+    float: left;
+    height: 20px;
   }
 
 
   #secondlist {
       width: 70%;
+      padding: 10px;
       margin-left: 40%;
-      display: inline-block;
+      padding-bottom: 80px;
+      position: absolute;
+      float: right;
+      height: 20px
+  }
+
+#vanessa {
+    margin-top: 200px;
+}
+
+#logofooter {
+    padding-top: 200px;
+    align-content: center;
+}
+
+  footer {
+      padding-top: 200px;
+      text-align: center;
   }
