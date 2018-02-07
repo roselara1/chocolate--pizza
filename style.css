@@ -1,1 +1,45 @@
-s
+#delicious {
+    font-family: 'Yellowtail', cursive;
+}
+
+.container {
+    width: 80%;
+    margin: 10%;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+header image {
+float: left;
+}
+
+.line {
+    width: 80%;
+    height: 10px;
+    border: 40px;
+    background: repeating-linear-gradient( 45deg, rgba(0, 0, 0, 0), 1px,  rgba(0, 0, 0, 0.2) 2px );
+  }
+
+  #paper {
+      background-image: url("images/paper.png");
+      background-repeat: no-repeat;
+      /* display: block; */
+  }
+
+  #firstlist {
+    width: 30%;
+    padding: 10px; 
+    margin-left: 5%;
+    display: block;
+  }
+
+
+  #secondlist {
+      width: 70%;
+      margin-left: 40%;
+      display: inline-block;
+  }
