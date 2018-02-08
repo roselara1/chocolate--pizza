@@ -50,3 +50,11 @@ button {
     padding: 15px 20px;
     color: white;
 }
+
+#vanessa {
+    display:inline-block;
+}
+
+.img{
+    float: right;
+}
