@@ -2,63 +2,60 @@
     font-family: 'Yellowtail', cursive;
 }
 
-.container {
-    width: 80%;
-    margin: 10%;
-    text-align: center;
+#container {
+    width: 900px;
+    margin-left:10%;
+    box-sizing: border-box;
 }
 
 header {
-    margin-bottom: 50px;
-    text-align: left;
+    /* margin-bottom: 50px;
+    text-align: left; */
 }
 
 header image {
-float: left;
+/* float: left; */
 }
 
 .line {
-    width: 80%;
+    width: 100%;
     height: 10px;
     border: 40px;
     background: repeating-linear-gradient( 45deg, rgba(0, 0, 0, 0), 1px,  rgba(0, 0, 0, 0.2) 2px );
+    margin-top: 40px;
   }
 
   #paper {
       background-image: url("images/paper.png");
       background-repeat: no-repeat;
+      height: 100%;
   }
 
   #firstlist {
-    width: 30%;
-    padding: 10px; 
-    padding-bottom: 80px;
-    margin-left: 5%;
-    float: left;
-    height: 20px;
+      width: 40%;
+      display:inline-block;
+      padding-left: 20px;
+     
   }
 
 
   #secondlist {
-      width: 70%;
-      padding: 10px;
-      margin-left: 40%;
-      padding-bottom: 80px;
-      position: absolute;
-      float: right;
-      height: 20px
+     width: 40%;
+     display:inline-block;
+     padding-left: 100px;
   }
 
+
 #vanessa {
-    margin-top: 200px;
+    /* margin-top: 200px; */
 }
 
 #logofooter {
-    padding-top: 200px;
-    align-content: center;
+    /* padding-top: 200px;
+    align-content: center; */
 }
 
   footer {
-      padding-top: 200px;
-      text-align: center;
+      /* padding-top: 200px;
+      text-align: center; */
   }
