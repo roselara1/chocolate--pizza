@@ -1,37 +1,12 @@
-header img {
-    float: left;
-}
-
 #delicious {
     font-family: 'Yellowtail', cursive;
     color: black;
-    
-}
-.bestfoodblog {
-   margin-top:15%;
-   font-family: 'Monda', sans-serif;
-   color: grey;
-}
-
-#icons {
-    float: right;
-    margin-top: 5px;
+   font-size: 25px;    
 }
 
 #container {
     width: 900px;
     margin: 0px auto;
-    height: 15px;
-}
-
-header {
-    margin-bottom: 50px;
-    text-align: left;
-    float: bottom;
-}
-
-header image {
-float: left;
 }
 
 .line {
@@ -39,95 +14,84 @@ float: left;
     height: 10px;
     border: 40px;
     background: repeating-linear-gradient( 45deg, rgba(0, 0, 0, 0), 1px,  rgba(0, 0, 0, 0.2) 2px );
+    margin-top: 40px;
   }
 
-  h1 {
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-weight: bold;
-    height: 12px;
+  #best, h2 {
+      font-family: 'Monda', sans-serif;
+      color: grey;
   }
 
   h2 {
-    font-weight: lighter;
-    color: grey;
-    font-family: 'Monda', sans-serif;
-    font-size: 10px;
-
-  }
-
-  p {
-    font-family: 'Lora', sans-serif;
-    color: grey;
-    font-weight: lighter;
-  }
-
-  #paper {
-      background: url('images/paper.png');
-      display: block;
-      background-repeat: no-repeat;
-  }
-
-  #firstlist {
-    width: 30%;
-    padding: 10px; 
-    padding-bottom: 80px;
-    margin-left: 5%;
-    float: left;
-    height: 20px;
-    font-family: 'Open Sans', sans-serif;
-    color: saddlebrown;
-    font-weight: lighter;
-  }
-
-
-  #secondlist {
-      width: 70%;
-      padding: 10px;
-      margin-left: 40%;
-      padding-bottom: 80px;
-      position: absolute;
-      float: right;
-      height: 20px;
-      font-family: 'Open Sans', sans-serif;
-      color: saddlebrown;
       font-weight: lighter;
+      font-size: 10px;
   }
+
+#paragraph {
+    font-family: 'Lora', serif;
+    font-weight: lighter;
+    color: grey;
+    letter-spacing: 2px;
+    text-indent: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+#paper {
+    background: url('images/paper.png');
+    display: block;
+   }
+
+#firstlist {
+    width: 40%;
+      display:inline-block;
+      padding-left: 20px;
+      font-family: 'Open Sans', sans-serif;
+   color: saddlebrown;
+   font-weight: lighter;
+    } 
+
+
+#secondlist {
+    width: 40%;
+    display:inline-block;
+    padding-left: 100px;
+    font-family: 'Open Sans', sans-serif;
+   color: saddlebrown;
+   font-weight: lighter;
+  }
+
+
+button {
+    background-color: #bc7058;
+    padding: 15px 20px;
+    color: white;
+}
+
+#logo {
+        float:left;
+}
+
+#navImages {
+    float:right;
+    margin-right: 0;
+}
+
+#print {
+    float: right;
+}
+
+h1 {
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-size: 40px;
+}
 
 #vanessa {
-    color: black;
-    margin-top: 200px;
-    font-size: 20px;
     font-family: 'Asul', sans-serif;
-    font-weight: bolder;
+   font-weight: bold;
 }
 
 #blurb {
     font-family: 'Open Sans', sans-serif;
-    color: grey;
-    margin-left: 75px;
-    margin-right: 300px;
-}
-
-#logofooter {
-    padding-top: 200px;
-    align-content: center;
-}
-
-button {
-    border: 2px;
-    background-color: orange;
-    text-decoration-color: white;
-    margin-right: 5%;
-    float: right;
-}
-
-  footer {
-      padding-top: 200px;
-      font-family: 'Open Sans', sans-serif;
-      color: grey;
-      padding-left: 15px;
-      align-content: center;
-      margin-left: 5%;
-      margin-right: 60%;
-      margin-bottom: 0%;
+   color: grey;
 }
