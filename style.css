@@ -4,23 +4,24 @@ header img {
 
 #delicious {
     font-family: 'Yellowtail', cursive;
-    float: left;
-    margin-left: 5px;
-    font-size: 25px;
+    color: black;
+    
 }
-#bestfoodblog {
+.bestfoodblog {
    margin-top:15%;
+   font-family: 'Monda', sans-serif;
+   color: grey;
 }
 
 #icons {
     float: right;
     margin-top: 5px;
-    display: inline-block;
 }
 
-.container {
+#container {
     width: 900px;
     margin: 0px auto;
+    height: 15px;
 }
 
 header {
@@ -34,14 +35,35 @@ float: left;
 }
 
 .line {
-    width: 80%;
+    width: 100%;
     height: 10px;
     border: 40px;
     background: repeating-linear-gradient( 45deg, rgba(0, 0, 0, 0), 1px,  rgba(0, 0, 0, 0.2) 2px );
   }
 
+  h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: bold;
+    height: 12px;
+  }
+
+  h2 {
+    font-weight: lighter;
+    color: grey;
+    font-family: 'Monda', sans-serif;
+    font-size: 10px;
+
+  }
+
+  p {
+    font-family: 'Lora', sans-serif;
+    color: grey;
+    font-weight: lighter;
+  }
+
   #paper {
-      background-image: url("images/paper.png");
+      background: url('images/paper.png');
+      display: block;
       background-repeat: no-repeat;
   }
 
@@ -52,6 +74,9 @@ float: left;
     margin-left: 5%;
     float: left;
     height: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: saddlebrown;
+    font-weight: lighter;
   }
 
 
@@ -62,11 +87,25 @@ float: left;
       padding-bottom: 80px;
       position: absolute;
       float: right;
-      height: 20px
+      height: 20px;
+      font-family: 'Open Sans', sans-serif;
+      color: saddlebrown;
+      font-weight: lighter;
   }
 
 #vanessa {
+    color: black;
     margin-top: 200px;
+    font-size: 20px;
+    font-family: 'Asul', sans-serif;
+    font-weight: bolder;
+}
+
+#blurb {
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    margin-left: 75px;
+    margin-right: 300px;
 }
 
 #logofooter {
@@ -84,8 +123,11 @@ button {
 
   footer {
       padding-top: 200px;
-      text
+      font-family: 'Open Sans', sans-serif;
+      color: grey;
+      padding-left: 15px;
+      align-content: center;
       margin-left: 5%;
-      margin-right: 85%;
+      margin-right: 60%;
       margin-bottom: 0%;
-  }
+}
