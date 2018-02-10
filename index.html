@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Delicious</title>
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="icon" type="tab icon" href="images/logo.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:700|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asul" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="tab icon" href="img/logo.png"/>
     <title id="title">Delicious - Best Food Blog </title>
-</head>
+  </head>
 
 <body>
     <div id="container">
-        <header>
+        <header id="header">
+            <img id="logo" src="images/logo.png" alt="Logo"/>
             <nav>
-                <img src="images/logo.png" alt="Delicious logo">
-                <p id="delicious">Delicious</p>
-                <p>THE BEST FOOD BLOG ON THE WEB</p>
+                <ul>
+                    <li id="delicious">Delicious</li>
+                    <li id="best">THE BEST FOOD BLOG ON THE WEB</li>
+                </ul>
             </nav>
+            <div id="navImages">
                 <img class="img" src="images/fb-icon.png" alt="Facebook Icon">
                 <img class="img" src="images/twit-icon.png" alt="Twitter Icon">
                 <img class="img" src="images/gp-icon.png" alt="Google Icon">
@@ -25,14 +33,15 @@
                 <img class="img" src="images/pint-icon.png" alt="Pinterest Icon">
                 <img class="img" src="images/rss-icon.png" alt="RSS Icon">
                 <img class="img" src="images/mail-icon.png" alt="Mail Icon">
+            </div>
         </header>
         
         <div class="line"></div>
         
         <h1>Chocolate Pizza</h1>
         <h2>POSTED ON 15 DEC 2013 / DESSERTS</h2>
-        <img src="images/print.png" alt="Print Icon">
-        <img src="images/choco-pizza.png" alt="Delicious Logo">
+        <img id="print" src="images/print.png" alt="Print Icon">
+        <img src="images/choco-pizza.png" alt="Chocolate Pizza">
         <div id="paragraph">
             <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
             
@@ -41,36 +50,38 @@
             <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
         </div>
         
-        <div id="paper">
-            <div id="firstlist">
-                <ul>
-                    <li>1 1/2 cups milk</li>
-                    <li>1/2 cup mascarpone</li>
-                    <li>1/2 tsp pink salt</li>
-                    <li>1 lb Black Mission Figs</li>
-                    <li>1/2 cup brown sugar</li>
-                    <li>2-4 tbsp water</li>
-                </ul>
+        <section>
+            <div id="paper">
+                <div id="firstlist">
+                    <ul>
+                        <li>1 1/2 cups milk</li>
+                        <li>1/2 cup mascarpone</li>
+                        <li>1/2 tsp pink salt</li>
+                        <li>1 lb Black Mission Figs</li>
+                        <li>1/2 cup brown sugar</li>
+                        <li>2-4 tbsp water</li>
+                    </ul>
+                </div>
+                
+                <div id="secondlist">
+                    <ul>
+                        <li>1 1/2 cups heavy cream</li>
+                        <li>1/3 granulated sugar</li>
+                        <li>2 egg yolks</li>
+                        <li>1 lemon, juiced</li>
+                        <li>2 tbsp butter</li>
+                        <li>1 cup honey roasted pecans, roughly chopped</li>
+                    </ul>
+                </div>
             </div>
-            
-            <div id="secondlist">
-                <ul>
-                    <li>1 1/2 cups heavy cream</li>
-                    <li>1/3 granulated sugar</li>
-                    <li>2 egg yolks</li>
-                    <li>1 lemon, juiced</li>
-                    <li>2 tbsp butter</li>
-                    <li>1 cup honey roasted pecans, roughly chopped</li>
-                </ul>
-            </div>
-        </div>
+        </section> 
         
         <div class="line"></div>
         
         <div id="vanessa">
             <img src="images/van-pic.png" alt="Delicious logo">
             <p>Vanessa Stevenson</p>
-            <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+            <p id="blurb">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
         </div>
         <button>SHARE RECIPE</button>
         
