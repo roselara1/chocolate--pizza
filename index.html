@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+    <title>Delicious</title>
+    <!--Delicious font-->
     <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed:700|Shadows+Into+Light" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <!--The Best Food Blog On The Web font-->
     <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+    <!--Chocolate Pizza font-->
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+    <!--Posted On 15 Dec 2013 / Desserts font--> 
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+    <!--Blog post text font--> 
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <!--lists font-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!--Vanessa Stevenson name font--> 
     <link href="https://fonts.googleapis.com/css?family=Asul" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="tab icon" href="img/logo.png"/>
-    <title id="title">Delicious - Best Food Blog </title>
-  </head>
+    <!--Vanessa blurb font--> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
 
 <body>
     <div id="container">
@@ -60,6 +68,8 @@
                         <li>1 lb Black Mission Figs</li>
                         <li>1/2 cup brown sugar</li>
                         <li>2-4 tbsp water</li>
+
+                        <div class="hide"><li></li></div>
                     </ul>
                 </div>
                 
@@ -80,7 +90,9 @@
         
         <div id="vanessa">
             <img src="images/van-pic.png" alt="Delicious logo">
-            <p>Vanessa Stevenson</p>
+
+            <p id="vanessatext">Vanessa Stevenson</p>
+
             <p id="blurb">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
         </div>
         <button>SHARE RECIPE</button>
@@ -88,9 +100,14 @@
         <div id="footerlogo">
             <img src="images/logo.png" alt="Delicious logo">
         </div>
+
+        <div class="footerline1"></div>
+        <div class="footerline2"></div>
         
-        <footer>Delicious &copy 2013 All Rights Reserved. Proudly published with Ghost.</footer>
+        <footer id=footercopy>Delicious &copy 2013 All Rights Reserved.</footer>
+        <footer id="ghost"> Proudly published with Ghost.</footer>
         
         <script src="app.js"></script>
     </body>
 </html>
+
