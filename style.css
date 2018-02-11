@@ -1,7 +1,10 @@
 #delicious {
-    font-family: 'Yellowtail', cursive;
-    color: black;
-   font-size: 25px;    
+   font-family: 'Yellowtail', cursive;
+   color: black;
+   list-style-type: none;
+   font-size: 25px;
+   margin-left: 15px;
+   margin-bottom: 2px;    
 }
 
 #container {
@@ -9,23 +12,42 @@
     margin: 0px auto;
 }
 
+#navImages {
+    float:right;
+    margin-right: 0;
+    margin-top: -50px;
+}
+
+#best {
+    font-family: 'Monda', sans-serif;
+    color: grey;
+    list-style-type: none;
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
 .line {
     width: 100%;
     height: 10px;
     border: 40px;
     background: repeating-linear-gradient( 45deg, rgba(0, 0, 0, 0), 1px,  rgba(0, 0, 0, 0.2) 2px );
-    margin-top: 40px;
-  }
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 
-  #best, h2 {
-      font-family: 'Monda', sans-serif;
-      color: grey;
-  }
+#print {
+    float: right;
+}
 
-  h2 {
-      font-weight: lighter;
-      font-size: 10px;
-  }
+h2 {
+    font-family: 'Monda', sans-serif;
+    color: grey;
+    font-weight: lighter;
+    font-size: 10px;
+    margin-left: 2px;
+    margin-top:-30px;
+}
 
 #paragraph {
     font-family: 'Lora', serif;
@@ -35,63 +57,113 @@
     text-indent: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-  }
+}
 
 #paper {
     background: url('images/paper.png');
     display: block;
-   }
+}
 
 #firstlist {
     width: 40%;
-      display:inline-block;
-      padding-left: 20px;
-      font-family: 'Open Sans', sans-serif;
-   color: saddlebrown;
-   font-weight: lighter;
-    } 
+    display:inline-block;
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: saddlebrown;
+    font-weight: lighter;
+    padding-bottom: 15px;
+    padding-top: -15px;
+} 
 
+.hide {
+    list-style-type: none;
+}
 
 #secondlist {
     width: 40%;
     display:inline-block;
     padding-left: 100px;
     font-family: 'Open Sans', sans-serif;
-   color: saddlebrown;
-   font-weight: lighter;
-  }
-
+    color: saddlebrown;
+    font-weight: lighter;
+    margin-top: 15px;
+}
 
 button {
     background-color: #bc7058;
     padding: 15px 20px;
     color: white;
+    float:right;
+    width: 170px;
+    font-size: 15px;
+    margin-bottom: 45%;
+    margin-top: -100px;
 }
 
 #logo {
         float:left;
 }
 
-#navImages {
-    float:right;
-    margin-right: 0;
-}
-
-#print {
-    float: right;
-}
-
 h1 {
     font-family: 'Saira Semi Condensed', sans-serif;
     font-size: 40px;
 }
-
 #vanessa {
+    margin-top: -15px;
+}
+#vanessatext {
     font-family: 'Asul', sans-serif;
-   font-weight: bold;
+    font-weight: bold;
+    margin-top: -55px;
+    margin-left: 75px;
 }
 
 #blurb {
     font-family: 'Open Sans', sans-serif;
-   color: grey;
+    color: grey;
+    margin-left: 75px;
+    margin-right: 255px;
+}
+
+#footerlogo {
+    padding-left: 45%;
+    padding-left: 45%;
+    opacity: 0.5;
+}
+
+.footerline1 {
+    width: 40%;
+    height: 3px;
+    border: 40px;
+    padding-right: -380px;
+    padding-left: 50px;
+    background: repeating-linear-gradient( 180deg, rgba(0, 0, 0, 0), 1px,  rgba(0, 0, 0, 0.2) 2px );
+    margin-top: -30px;
+    margin-bottom: 40px;
+}
+
+.footerline2 {
+    width: 50%;
+    height: 3px;
+    border: 40px;
+    margin-left: 50%;
+    margin-right:50%;
+    padding-right: 25px;
+    padding-top: -540px;
+    background: repeating-linear-gradient( 180deg, rgba(0, 0, 0, 0), 1px,  rgba(0, 0, 0, 0.2) 2px );
+    margin-top: -45px;
+    margin-bottom: 40px;
+}
+
+#footercopy {
+    margin-left: 35%;
+    margin-right: 35%;
+    color: grey;
+}
+
+#ghost {
+    margin-left: 35%;
+    margin-right: 37%;
+    text-align: center;
+    color: grey;
 }
