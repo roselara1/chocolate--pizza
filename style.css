@@ -79,7 +79,6 @@ h2 {
     list-style-type: none;
 }
 
-
 #secondlist {
     width: 40%;
     display:inline-block;
@@ -89,7 +88,6 @@ h2 {
     font-weight: lighter;
     margin-top: 15px;
 }
-
 
 button {
     background-color: #bc7058;
